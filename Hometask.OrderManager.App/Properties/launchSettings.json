@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Hometask.OrderManager.App": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNET_ENVIRONMENT": "Development",
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
