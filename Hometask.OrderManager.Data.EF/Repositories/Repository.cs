@@ -27,12 +27,6 @@ public class Repository<TEntity> : IRepository<TEntity> where TEntity : class, I
         Context.SaveChanges();
     }
 
-    public void DeleteById(Guid id)
-    {
-        _entities.Remove(GetById(id));
-        Context.SaveChanges();
-    }
-
     public List<TEntity> GetBySpec(Specification<TEntity> spec)
     {
         IQueryable<TEntity> query = _entities;

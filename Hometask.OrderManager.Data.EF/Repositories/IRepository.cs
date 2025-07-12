@@ -14,5 +14,4 @@ public interface IRepository<TEntity> where TEntity : class, IEntity
     void Update(TEntity entity);
 
     void Delete(TEntity entity);
-    void DeleteById(Guid id);
 }
