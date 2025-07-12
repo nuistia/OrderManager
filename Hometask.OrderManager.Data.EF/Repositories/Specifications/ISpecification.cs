@@ -1,4 +1,5 @@
 ﻿using Hometask.OrderManager.Data.EF.Models;
+using Hometask.OrderManager.Data.Models;
 using System.Linq.Expressions;
 
 namespace Hometask.OrderManager.Data.EF.Repositories.Specifications;

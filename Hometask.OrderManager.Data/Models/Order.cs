@@ -1,4 +1,4 @@
-﻿namespace Hometask.OrderManager.Data.EF.Models;
+﻿namespace Hometask.OrderManager.Data.Models;
 
 public partial class Order : IEntity
 {

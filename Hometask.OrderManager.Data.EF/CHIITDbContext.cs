@@ -1,4 +1,4 @@
-﻿using Hometask.OrderManager.Data.EF.Models;
+﻿using Hometask.OrderManager.Data.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Hometask.OrderManager.Data.EF;
