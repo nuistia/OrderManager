@@ -1,4 +1,4 @@
-﻿using Hometask.OrderManager.Data.EF.Models;
+﻿using Hometask.OrderManager.Data.Models;
 using Hometask.OrderManager.Data.EF.Repositories;
 using Hometask.OrderManager.Data.EF.Repositories.Specifications.Orders;
 
