@@ -1,6 +1,6 @@
 ﻿using Hometask.OrderManager.Data.EF.Models;
 
-namespace Hometask.OrderManager.Core.Services.EF.Orders;
+namespace Hometask.OrderManager.Core.Services.Orders.EF;
 
 public interface IOrderService
 {

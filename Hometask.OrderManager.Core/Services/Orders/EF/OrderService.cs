@@ -2,7 +2,7 @@
 using Hometask.OrderManager.Data.EF.Repositories;
 using Hometask.OrderManager.Data.EF.Repositories.Specifications.Orders;
 
-namespace Hometask.OrderManager.Core.Services.EF.Orders;
+namespace Hometask.OrderManager.Core.Services.Orders.EF;
 
 public class OrderService : IOrderService
 {

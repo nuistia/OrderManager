@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\ADO\" />
+    <Folder Include="Services\Orders\ADO\" />
   </ItemGroup>
 
   <ItemGroup>

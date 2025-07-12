@@ -1,4 +1,4 @@
-﻿using Hometask.OrderManager.Core.Services.EF.Orders;
+﻿using Hometask.OrderManager.Core.Services.Orders.EF;
 using Hometask.OrderManager.Data.EF;
 using Hometask.OrderManager.Data.EF.Repositories;
 using Microsoft.EntityFrameworkCore;

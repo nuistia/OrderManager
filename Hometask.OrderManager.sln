@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask.OrderManager.App",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask.OrderManager.Data.EF", "Hometask.OrderManager.Data.EF\Hometask.OrderManager.Data.EF.csproj", "{06FA268B-39D6-D414-26E1-4C24D8EB7E1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask.OrderManager.Data.ADO", "Hometask.OrderManager.Data.ADO\Hometask.OrderManager.Data.ADO.csproj", "{68201E62-FE49-4C1C-BA09-E15A92303AE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{06FA268B-39D6-D414-26E1-4C24D8EB7E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06FA268B-39D6-D414-26E1-4C24D8EB7E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06FA268B-39D6-D414-26E1-4C24D8EB7E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68201E62-FE49-4C1C-BA09-E15A92303AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68201E62-FE49-4C1C-BA09-E15A92303AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68201E62-FE49-4C1C-BA09-E15A92303AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68201E62-FE49-4C1C-BA09-E15A92303AE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
