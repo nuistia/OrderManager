@@ -1,4 +1,5 @@
 ﻿using Hometask.OrderManager.Core.Services.Orders.EF;
+using Hometask.OrderManager.Data.ADO.Repositories;
 using Hometask.OrderManager.Data.EF;
 using Hometask.OrderManager.Data.EF.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -17,6 +18,7 @@ public static class DependencyInjection
         services.AddDbContext<CHIITDbContext>(options => options.UseSqlServer(connectionString));
         services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
         services.AddScoped<IOrderService, OrderService>();
+        services.AddScoped<OrderRepository>();
 
         return services;
     }
