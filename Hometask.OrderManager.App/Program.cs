@@ -1,15 +1,8 @@
-﻿using Microsoft.Extensions.Hosting;
+﻿using Hometask.OrderManager.App;
+using Microsoft.Extensions.Hosting;
 
-namespace Hometask.OrderManager.App;
+HostBuilder hostBuilder = new();
 
-public class Program
-{
-    static void Main(string[] args)
-    {
-        HostBuilder hostBuilder = new();
+DependencyInjection.ConfigureHost(hostBuilder);
 
-        DependencyInjection.ConfigureHost(hostBuilder);
-
-        using IHost host = hostBuilder.Build();
-    }
-}
+using IHost host = hostBuilder.Build();
