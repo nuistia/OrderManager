@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿namespace Hometask.OrderManager.Data.EF.Models;
 
-namespace Hometask.OrderManager.Data.Models;
-
-public partial class Order
+public partial class Order : IEntity
 {
     public Guid OrdId { get; set; }
 

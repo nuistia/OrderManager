@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿namespace Hometask.OrderManager.Data.EF.Models;
 
-namespace Hometask.OrderManager.Data.Models;
-
-public partial class Analysis
+public partial class Analysis : IEntity
 {
     public Guid AnId { get; set; }
 
